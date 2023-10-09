@@ -67,7 +67,7 @@ const SearchInput =  () => {
     </div>
     <br />
     <div className="join grid grid-cols-3">
-    {currentSliceEnd >= 6 ? <button onClick={handlePrevPage} className="join-item btn btn-outline">Previous Page</button> : <button className="join-item btn btn-outline">Thats the end</button>}
+    {currentSliceEnd >= 6 ? <button onClick={handlePrevPage} className="join-item btn btn-outline">Previous Page</button> : <button className="join-item btn btn-outline ">Thats the end</button>}
     <span className='join-item btn btn-outline'>{currentPage}</span>
     {currentSliceEnd < String(searchPost).length && <button onClick={handleNextPage} className="join-item btn btn-outline">Next Page</button>}
       

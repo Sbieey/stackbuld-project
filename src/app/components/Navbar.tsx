@@ -9,7 +9,7 @@ const Navbar = () =>{
 
  
     return(
-        <div className="navbar bg-neutral">
+        <div className="navbar bg-base-200">
             <div className="container">
                 <div className="flex-1">
                     <Link href='/'>Stackbuld Project</Link>
