@@ -12,8 +12,7 @@ const nextConfig = {
 
       },
       reactStrictMode: true,
-    //   distDir: 'dist',
-    outputDir: 'build'
+      distDir: 'build',
       
 }
 
