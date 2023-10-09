@@ -4,7 +4,7 @@ import FormPost from '../components/FormPost'
 import {SubmitHandler} from "react-hook-form"
 import { FormInputPost } from '../types'
 import BackButton from '../components/BackButton'
-import {db} from '../../../firebaseConfig'
+import {db} from '../firebaseConfig'
 import {collection, addDoc, Timestamp} from 'firebase/firestore'
 import { useMutation } from '@tanstack/react-query'
 import axios from 'axios'

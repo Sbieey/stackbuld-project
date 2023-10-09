@@ -1,4 +1,4 @@
-import { db } from '../../firebaseConfig'
+import { db } from './firebaseConfig'
 import { getDocs, collection } from "firebase/firestore";
 import SearchInput from './components/SearchInput';
 // import { useState } from 'react';
@@ -25,15 +25,15 @@ const postCollectionRef = collection(db, 'posts')
 
 export default async function Home() {
 
-const posts = await getPosts()
+// const posts = await getPosts()
 
 
 // console.log(posts)
 
   return (
-    <div> 
+  <div> 
     <SearchInput  />
-    </div>
+  </div>
    
   )
 }

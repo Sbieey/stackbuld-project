@@ -1,7 +1,7 @@
 import firebase from "firebase/compat/app";
 import { NextResponse } from "next/server";
 
-import {app, db} from '../../../../../firebaseConfig'
+import {app, db} from '../../../firebaseConfig'
 // import {collection, query, orderBy, onSnapshot} from "firebase/firestore"
 
 import { doc,deleteDoc, setDoc, getDoc} from "firebase/firestore";

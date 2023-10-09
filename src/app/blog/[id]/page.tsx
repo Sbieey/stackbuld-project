@@ -1,7 +1,7 @@
 import BackButton from "@/app/components/BackButton"
 import ButtonAction from "@/app/components/ButtonAction"
 import { FC } from "react"
-import { db } from '../../../../firebaseConfig'
+import { db } from '../../firebaseConfig'
 import { getFirestore } from 'firebase/firestore';
 import { getDocs, collection, doc, getDoc } from "firebase/firestore";
 

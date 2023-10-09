@@ -36,10 +36,9 @@ const SearchInput =  () => {
 
 
     const debouncedSearchTerm = useDebounce(search, 200)  
-    //@ts-ignore
     let {data:searchPost, isLoading:isloadingSearch, error} = useQuery({
         queryKey: ['search', debouncedSearchTerm], 
-         //@ts-ignore
+        
         queryFn: async () => {
           const posts:any = await getPosts()
             if(debouncedSearchTerm){

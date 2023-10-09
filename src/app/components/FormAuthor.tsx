@@ -6,7 +6,7 @@ import { AuthorInput } from '../types';
 import { useQuery } from '@tanstack/react-query';
 import axios from 'axios';
 import {collection, query, orderBy, onSnapshot} from "firebase/firestore"
-import {db} from '../../../firebaseConfig'
+import {db} from '../firebaseConfig'
 import Link from 'next/link';
 
 interface FormAuthorProps{
